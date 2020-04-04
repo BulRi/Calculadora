@@ -1,0 +1,15 @@
+
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { border: 10px #9933ff double; width: 300px;text-align: center;
+               background-color: #B4BABA; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 200px; border: 2px black solid; text-align: right;
+                 position: relative; left: 45px;  padding: 5px 5px;
+                 background-color: white; font-family: "courier new";
+                 overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 45px; padding: 0; background-color:#5A5B5B; color:#FFF; }
+/*botones especiales*/
+.calculadora input.largo { color:#FFFE00; width: 70px; }
